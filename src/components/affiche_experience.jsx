@@ -16,7 +16,7 @@ export function DisplayExp({ infoExperience, handleclick2}) {
                     <div>
                         <Button
                             handleclick={() => {handleclick2(infoE.id)}}  
-                            textBtuton="Delete"
+                            textBtuton="Supprimer"
                         />
                     </div>
                     

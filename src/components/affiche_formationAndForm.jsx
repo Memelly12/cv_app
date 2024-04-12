@@ -15,7 +15,7 @@ export function Formation({ infoUniv, handleclick2 }) {
                     
                         <Button
                             handleclick={() => {handleclick2(info.id)}}  
-                            textBtuton="Delete"
+                            textBtuton="Supprimer"
                         />
                     
                     

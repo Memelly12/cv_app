@@ -47,7 +47,7 @@ export function CVBuilder({generalInfo, infoUniv, infoExperience}) {
                 </div>
                 <div className="experience">
                 <div className="titre">
-                         <h2>Experience proféssionnelles</h2>
+                         <h2>Experiences proféssionnelles</h2>
 
                  </div>
                     
