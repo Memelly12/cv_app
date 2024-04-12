@@ -6,7 +6,7 @@ export function ExperienceProf({handlesubmit, handlechange2, formData2 }) {
         <>
            
             <form action="" onSubmit={handlesubmit}>
-                <label htmlFor="entrepriseNom">Nom de l'entréprise</label>
+                <label htmlFor="entrepriseNom">Nom de lentréprise</label>
                 <input
                     type="text"
                     id="nameEntreprise"
@@ -41,7 +41,7 @@ export function ExperienceProf({handlesubmit, handlechange2, formData2 }) {
                     onChange={handlechange2}
                 
                 />
-                <label htmlFor="description">Description de l'emploi</label>
+                <label htmlFor="description">Description de lemploi</label>
                 <textarea name="description" id="" cols="30" rows="10" value={formData2.description} onChange={handlechange2}></textarea>
                 <button type="submit"> Enregistrer</button>
             </form>

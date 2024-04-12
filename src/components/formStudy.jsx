@@ -6,7 +6,7 @@ export function StudyForm({formData, handleSubmit, handleChange}) {
         <>
             <h2>Études unniversitaires</h2>
             <form action="" onSubmit={handleSubmit}>
-                <label htmlFor="name">Nom de l'université</label>
+                <label htmlFor="name">Nom de université</label>
                 <input
                     type="text"
                     id="nameUniversity"
@@ -16,7 +16,7 @@ export function StudyForm({formData, handleSubmit, handleChange}) {
    
 
                 />
-                <label htmlFor="filiere">Domaine d'étude</label>
+                <label htmlFor="filiere">Domaine étude</label>
                 <input
                     type="text"
                     id="filiere"
@@ -27,7 +27,7 @@ export function StudyForm({formData, handleSubmit, handleChange}) {
                    
 
                 />
-                 <label htmlFor="niveau">Niveau d'étude</label>
+                 <label htmlFor="niveau">Niveau étude</label>
                 <input
                     type="text"
                     id="filiere"

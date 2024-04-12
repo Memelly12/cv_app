@@ -41,7 +41,7 @@ export function GeneralInfo({
                     value={generalInfo.email}
                     onChange={handleChange}
                 />
-                <label htmlFor="image">photo d'identité</label>
+                <label htmlFor="image">photo identité</label>
                 <input type="file"
                     name="image"
                 onChange={handleFileChange}
