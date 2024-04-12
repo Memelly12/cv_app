@@ -30,9 +30,9 @@ export function StudyForm({formData, handleSubmit, handleChange}) {
                  <label htmlFor="niveau">Niveau étude</label>
                 <input
                     type="text"
-                    id="filiere"
+                    id="niveau"
                     name="niveau"
-                    value={formData.filiere}
+                    value={formData.niveau}
                     onChange={handleChange}
 
                    
